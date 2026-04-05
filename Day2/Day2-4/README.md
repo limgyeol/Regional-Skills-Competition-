@@ -11,7 +11,10 @@ DB_NAME=$(aws secretsmanager get-secret-value --secret-id $SECRETS_MANAGER_NAME 
 ```
 
 위 명령어 안되면 jq 깔아야 함
-
+```
+sudo dnf install -y jq
+```
+Lambda 지정 
 ```
 LAMBDA_NAME="skills-storage-function"
 aws lambda update-function-configuration --function-name $LAMBDA_NAME --environment "Variables={DB_USER=$DB_USER,DB_PASSWORD=$DB_PASSWORD,DB_HOST=$DB_HOST,DB_PORT=$DB_PORT,DB_NAME=$DB_NAME}" --region $REGION_CODE > /dev/null
