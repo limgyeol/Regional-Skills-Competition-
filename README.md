@@ -6,6 +6,10 @@ https://limgyeol.notion.site/Diary-268537305262804cb89ad857a3619b31?source=copy_
 ```
 https://ondaclouds.notion.site/2026-1-328675b40a3481f2af66ff3f039804e6?pvs=143
 ```
+VPC Private Resource EndPoint
+```
+https://ondaclouds.notion.site/VPC-Privatelink-Resource-Endpoint-339675b40a34801498ccc921945a553c?source=copy_link
+```
 
 
 RDS IAM Authentication URL
