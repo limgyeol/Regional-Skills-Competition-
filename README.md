@@ -2,6 +2,11 @@ Diary URL
 ```
 https://limgyeol.notion.site/Diary-268537305262804cb89ad857a3619b31?source=copy_link
 ```
+2026 지방기능경기대회 예상 1과제 솔루션
+```
+https://ondaclouds.notion.site/2026-1-328675b40a3481f2af66ff3f039804e6?pvs=143
+```
+
 
 RDS IAM Authentication URL
 ```
