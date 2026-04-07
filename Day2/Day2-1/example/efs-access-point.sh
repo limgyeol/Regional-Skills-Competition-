@@ -1,7 +1,7 @@
 #!/bin/bash
 REGION_CODE="ap-northeast-2"
 EFS_NAME="shared-efs"
-ACCESS_POINT_NAME="shard-access-point"
+ACCESS_POINT_NAME="shared-access-point"
 MOUNT_DIR="/home/ec2-user/efs"
 EFS_ID=$(aws efs describe-file-systems --query "FileSystems[?Name=='$EFS_NAME'].FileSystemId" --output text --region $REGION_CODE)
 EFS_ACCESS_POINT=$(aws efs describe-access-points --file-system-id $EFS_ID --query "AccessPoints[?Tags[?Key=='Name' && Value=='$ACCESS_POINT_NAME']].AccessPointId" --output text)
